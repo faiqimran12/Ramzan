@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+select {
+  padding: 6px;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  appearance: none;
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="%23007bff"><path d="M7 10l5 5 5-5H7z"/></svg>') no-repeat right 10px center;
+  background-size: 16px;
+  padding-right: 30px;
+}
+
+  
+  select:focus {
+    border-color: #007bff;
+    outline: none;
+    background-color: #e9f7fe;
+  }
+  
+  select option {
+    padding: 10px;
+  }
+  
+input[type="date"] {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+  }
+  
+  input[type="date"]:focus {
+    border-color: #007bff;
+    outline: none;
+    background-color: #e9f7fe;
+  }
+  
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background-color: lightseagreen;
+    color: white;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+tr:nth-child(even) td {
+    background-color: #f2f2f2;
+}
